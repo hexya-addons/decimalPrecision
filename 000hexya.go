@@ -12,6 +12,8 @@ import (
 
 const MODULE_NAME string = "decimalPrecision"
 
+// Precisions is Hexya's global map for storing
+// precision data for each application.
 var Precisions = map[string]nbutils.Digits{}
 
 func init() {
